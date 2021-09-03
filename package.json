@@ -6,8 +6,21 @@
   "scripts": {
     "start": "nodemon app.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a1ip/task-manager-bot.git"
+  },
   "keywords": [],
   "author": "Philippe Rigovanov",
   "license": "MIT",
-  "type": "module"
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/a1ip/task-manager-bot/issues"
+  },
+  "homepage": "https://github.com/a1ip/task-manager-bot#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12",
+    "telegraf": "^4.4.1"
+  }
 }
